@@ -7,6 +7,8 @@
 #### Трансляция с языка Simple Assembler в образ оперативной памяти
 <img src="https://github.com/MacIT54/SimpleComputer/blob/main/docs/asmex.png" /><br/>
 <br/>
+#### Архитектура Simple Computer представлена на рисунке ниже и включает следующие функциональные блоки: оперативную память, устройство ввода-вывода (терминал), центральный процессор и генератор тактовых импульсов <br/>
+<img src="https://github.com/MacIT54/SimpleComputer/blob/main/docs/evm.png" /><br/><br/>
 Пример программы на Simple Assembler: <br/><br/>
 00 READ 09 ; (Ввод А) <br/>
 01 READ 10 ; (Ввод В) <br/>
