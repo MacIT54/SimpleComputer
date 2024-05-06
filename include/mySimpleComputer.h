@@ -13,7 +13,7 @@
 
 #define OUT_OF_MEMORY_BOUNDS 1
 #define WRONG_FLAG 2
-#define OPERATION_OVERFLOW 3
+#define IGNORING_TACT_PULSES 3
 #define INCORRECT_COMMAND_RECEIVED 4
 #define DIVISION_ERR_BY_ZERO 5
 
@@ -39,7 +39,7 @@ int sc_icounterInit (void);
 int sc_icounterSet (int value);
 int sc_icounterGet (int *value);
 
-void printCell (int address);
+void printCell ();
 void printFlags (void);
 void printDecodedCommand (int value);
 void printAccumulator (void);

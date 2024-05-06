@@ -1,8 +1,8 @@
 build:
-	gcc main.c -o pr01.out -I../include -L../mySimpleComputer -lMySimpleComputer
+	gcc main.c -o console.out -I../include -I../mySimpleComputer -I../myBigChars -I../myTerm -L../mySimpleComputer -lMySimpleComputer -L../myTerm -lMyTerm -L../myBigChars -lMyBigChars
 
 run: build
-	./pr01.out
+	./console.out
 
 clean: 
-	rm -rf pr01.out
+	rm -rf console.out
