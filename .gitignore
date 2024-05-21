@@ -56,3 +56,7 @@ dkms.conf
 
 #VScode
 .vscode/
+
+#Translators
+sbt
+sat

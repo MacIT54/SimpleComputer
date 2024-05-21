@@ -1,5 +1,6 @@
 #pragma once
 #include "../mySimpleComputer/sc.h"
+#include <console.h>
 #include <mySimpleComputer.h>
 #include <myTerm.h>
 #include <unistd.h>
